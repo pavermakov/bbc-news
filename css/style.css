@@ -1,0 +1,295 @@
+body{
+	margin: 0;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.break{
+	clear: both;
+}
+
+#topbar{
+	background-color: #7E0100;
+	width: 100%;
+	height: 45px;
+	color: white;
+}
+
+.fixed-width{
+	width: 1050px;
+	margin: 0 auto;
+}
+
+#logodiv{
+	padding-top: 3px;
+	padding-right: 5px;
+	float: left;
+	border-right: 2px solid #990000;
+}
+
+#signindiv {
+	font-weight: bold;
+	padding: 10px 60px 13px 22px;
+	font-size: 0.9em;
+	border-right: 2px solid #990000;
+	float: left;
+}
+
+	#signindiv > img {
+		position: relative;
+		top: 4px;
+		left: -2px;
+	}
+
+#topmenudiv{
+	float: left;
+}
+
+	#topmenudiv ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	#topmenudiv li {
+		height: 100%;
+		padding: 14px 20px 14px 20px;
+		list-style: none;
+		font-weight: bold;
+		font-size: 0.9em;
+		border-right: 2px solid #990000;
+		float: left;
+	}
+
+#searchdiv {
+	float: left;
+	padding: 7px 0 0 6px;
+}
+
+	#searchdiv input{
+		height: 23px;
+		border: none;
+		padding: 3px 2px 3px 5px;
+		font-weight: bold;
+		background-image: url("../img/search.png");
+		background-position: right center;
+		background-repeat: no-repeat;
+		background-size: 20px;
+	}
+
+#newsbar{
+	background-color: #990000;
+	width: 100%;
+	height: 90px;
+	color: white;
+}
+
+#newsbar .fixed-width{
+	background-image: url("../img/globe.png");
+	background-position: 92% 50%;
+	background-repeat: no-repeat;
+	background-size: 175px
+}
+
+	#newsbar p {
+		float: left;
+		margin: 0;
+		padding: 10px 0 0 0;
+	}
+
+	#newsheader{
+		font-size: 3em;
+	}
+
+	#country{
+		font-size: 0.7em;
+		padding-left: 20px;
+	}
+
+	#rss{
+		float: right;
+		margin-top: 40px;
+		font-size: 1.3em;
+	}
+
+#topicmenu{
+	
+}
+
+	#topicmenu ul{
+		height: 20px;
+		margin: 0;
+		padding: 5px 0 0 0;
+		background-color: #3E0C0D;
+	}
+
+	#topicmenu li{
+		padding: 0 10px 0 10px;
+		list-style: none;
+		font-size: 0.8em;
+		border-right: 1px solid #990000;
+		float: left;
+		background-color: none;
+	}
+
+	#topicmenu li:last-child{
+		border-right: none;
+	}
+
+.selected{
+	background-color: #EDEDED;
+	color: #403f3f;
+	height: 20px;
+	position: relative;
+	top: -5px;
+	padding-top: 5px !important;
+}
+
+#content{
+	width: 100%;
+	color: #535353;
+	font-size: 0.75em;
+}
+
+h1{
+	color: #1F4F82;
+	font-size: 2.5em;
+}
+
+.newsitem{
+	position: relative;
+	float: left;
+	width: 275px;
+	left: 10px;
+	top: -18px;
+	font-size: 1.2em;
+}
+
+a {
+	color: #1F4F82;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.headline-image{
+	float: left;
+}
+
+/*link with an icon next to a link */
+.video{
+	padding-left: 22px;
+	background-image: url("../img/play.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+/*link with an icon next to a link */
+.sound{
+	padding-left: 22px;
+	background-image: url("../img/sound.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.links{
+	line-height: 1.6em;
+}
+
+.date{
+	font-weight: bold;
+}
+
+#watchlisten{
+	position: relative;
+	top: -85px;
+	background-color: #EEEEEE;
+	float: right;
+	width: 355px;
+}
+
+#watchlisten iframe{
+	width: 100%;
+	height: 200px;
+}
+
+	#watchlisten ul {
+		padding: 0 10px 0 10px;
+		margin: 0;
+	}
+
+	#watchlisten li {
+		list-style: none;
+		background-image: url("../img/live.png");
+		background-position: left center;
+		background-repeat: no-repeat;
+		padding: 5px 0 5px 35px;
+		font-size: 1.5em;
+	}
+
+	#watchlisten h2{
+		color: #505050;
+		margin:  10px 0 10px 10px;
+		font-size: 1.8em;
+	}
+
+.bb{
+	border-bottom: 1px solid #DDDDDD;
+}
+
+
+
+footer{
+	clear: both;
+	background-color: #4C4C4C;
+	color: white;
+}
+
+footer h2{
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+footer ul.topics{
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+footer ul.topics li {
+	display: inline-block;
+	line-height: 25px;
+	width: 160px;
+	
+	list-style: none;
+	margin: 0;
+	padding-left: 5px;
+	border-right: 1px solid #ccc;
+}
+
+footer ul.topics li:nth-child(6),footer ul.topics li:nth-child(12),footer ul.topics li:nth-child(18){
+	border-right: none;
+}
+
+footer hr{
+	width: 96%;
+}
+
+footer ul.info{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row; 
+	flex-direction: row;
+	-webkit-justify-content: space-between;
+   justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer ul.info li{
+	list-style: none;
+}
+
+footer p{
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
